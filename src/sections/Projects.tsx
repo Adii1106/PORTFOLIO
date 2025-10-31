@@ -10,8 +10,15 @@ import spaceImage from "../../public/images/projects/space.jpg";
 import tmsImage from "../../public/images/projects/tms.png";
 import threadsImage from "../../public/images/projects/threads.png";
 import ratemyuniImage from "../../public/images/projects/ratemyuni.jpg";
-
+import RPS from "../../public/images/RPS.png";
+import krakens from "../../public/images/krakens.png";
+import tictactoe from "../../public/images/tictactoe.png";
+import whatscookin from "../../public/images/whatscookin.png";
+import walmart from "../../public/images/walmart.png";
 import ArrowRightIcon from "../../public/icons/arrow-up-right.svg";
+import web from "../../public/images/web.png";
+import what from "../../public/images/what.png";
+import guard from "../../public/images/guard.png";
 
 import { Tabs } from "@/components/ui/tabs";
 import Image from "next/image";
@@ -33,209 +40,185 @@ import MojoImage from "../../public/images/mojo.png";
 import { Globe2 } from "lucide-react";
 
 const sideProjects = [
+  
   {
-    name: "Breadit",
+    name: "Hand Gesture Rock-Paper-Scissors",
     description:
-      "Breadit is a full-stack website built using modern web technologies, including Next.js with the App Router, TypeScript, and Tailwind CSS. The project provides a smooth, dynamic user experience with features like infinite scrolling for loading posts, authentication via NextAuth with Google integration, and personalized feeds for authenticated users. It employs optimistic updates to enhance the user experience by reflecting changes immediately while processing, and advanced caching mechanisms using Upstash Redis. ",
-    image: breaditImage,
-    link: "https://breadit-nextjs.vercel.app",
-    repo: "https://github.com/itsyaba/breadit",
-    tech: ["Next.js", "TailwindCSS", "Postgres", "Prisma", "React Query", "NextAuth", "upstash"],
-    isTopProject: true,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
-  {
-    name: "Cypress",
-    description:
-      "This project is a simplified clone of the popular productivity application, Notion. It's designed to replicate some of the core features of Notion, providing a platform where users can create, edit, and organize their notes in a flexible and intuitive interface.",
-    image: cypressImage,
-    link: "https://cypress-note-taking.vercel.app",
-    repo: "https://github.com/itsyaba/cypress",
-    tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "Clerk"],
-    isTopProject: true,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
-  {
-    name: "Rate My Uni (Hackathon Project)",
-    description:
-      "The project is focused on building a simple, yet functional, web-based interface where students and users can rate universities based on various criteria (e.g., campus, academics). It aims to create a platform where users can submit and view ratings for different universities, much like popular 'Rate My Professor' services but focused on universities as a whole.",
-    image: ratemyuniImage,
-    link: "https://ratemyuniversity.com",
-    repo: "https://github.com/itsyaba/rate-my-uni",
-    tech: ["Next.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
-    isTopProject: true,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
-  {
-    name: "Task Management Platform",
-    description:
-      "Project management dashboard built with modern web technologies. It leverages Next.js for the frontend, styled with Tailwind CSS, and uses Redux Toolkit and Material UI for state management and data grid handling. The backend is powered by Node.js and Express, with Prisma as the ORM to interact with a PostgreSQL database.",
-    image: tmsImage,
-    link: "https://tms.comhttps://tms-platforms.vercel.app",
-    repo: "https://github.com/itsyaba/tms-platform",
-    tech: [
-      "Next.js",
-      "TailwindCSS",
-      "NeonDB",
-      "Express",
-      "Node.js",
-      "Prisma",
-      "Redux Toolkit",
-      "MUI",
-    ],
-    isTopProject: true,
-    isNextjs: true,
-    isMern: false,
-    isHtmlCss: false,
-  },
-  {
-    name: "Ethiopian Elegance",
-    description:
-      " E-commerce website designed to sell traditional Ethiopian clothing, jewelry, and home goods. The platform allows users to browse products by category, view detailed descriptions, and add items to a shopping cart. It includes essential e-commerce functionalities such as user account creation, order history tracking, and checkout with payment integration using Stripe.",
-    image: ecommerceImage,
-    link: "https://ethiopian-elegance.onrender.com",
-    repo: "https://github.com/itsyaba/Ethiopian-Elegance",
-    tech: ["MongoDB", "Express", "React.js", "Node.js", "TailwindCSS", "Stripe", "Mantine UI"],
+      "Engineered a real-time Rock-Paper-Scissors game using webcam-based hand gesture recognition for an immersive and interactive experience. Integrated TensorFlow.js Hand Pose Detection (MediaPipe Hands backend) with react-webcam for accurate, real-time gesture tracking. Designed gameplay logic for gesture aggregation, countdowns, and scoring, enhancing user engagement and responsiveness.",
+    image: RPS,
+    link: "https://gesture-rps-jyuy.vercel.app/",
+    repo: "https://github.com/Adii1106/Gesture-RPS-",
+    tech: ["React", "TensorFlow.js", "MediaPipe Hands", "JavaScript", "Vite"],
     isTopProject: true,
     isNextjs: false,
-    isMern: true,
+    isMern: false,
     isHtmlCss: false,
   },
   {
-    name: "Gallery Glimpses",
+    name: "WhatsCookin – Recipe Remix Web App",
     description:
-      "A gallery website where users can upload images in either private or public mode. If an image is set to private, only the uploader can view it. Public images are visible to all users.",
-    image: galleryImage,
-    link: "https://gallery-glimpse-web.vercel.app",
-    repo: "https://github.com/itsyaba/Gallery_Glimpse_Frontend",
-    tech: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js"],
-    isTopProject: false,
+      "Developed an interactive recipe platform that enables users to remix and personalize recipes through live ingredient modifications and preview updates. Built modular React components with a responsive, mobile-optimized UI for a seamless cooking experience across devices. Leveraged Vite for fast rendering and real-time state management for an engaging and intuitive user experience.",
+    image: whatscookin,
+    link: "https://whats-cookin-lac.vercel.app/",
+    repo: "https://github.com/Adii1106/Whats-Cookin",
+    tech: ["React", "Vite", "JavaScript", "HTML5", "CSS3"],
+    isTopProject: true,
     isNextjs: false,
-    isMern: true,
+    isMern: false,
     isHtmlCss: false,
   },
   {
-    name: "Space Tourism Website ",
-    description: "Frontend Mentor Challenge to build a space tourism landing page.",
-    image: spaceImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
+    name: "Krekens",
+    description:
+      "Developed Krekens, a modern and visually engaging website built using React and Tailwind CSS. Designed to showcase the team’s projects, achievements, and collaborative spirit with smooth animations and responsive layouts. Focused on building a clean, scalable frontend architecture and delivering a dynamic user experience.",
+    image: krakens,
+    link: "https://the-krekens.vercel.app/",
+    repo: "https://github.com/Harshit-jain-57/The-Kreken-Kins",
+    tech: ["React", "TailwindCSS", "JavaScript", "Vite"],
     isTopProject: false,
     isNextjs: false,
     isMern: false,
-    isHtmlCss: true,
+    isHtmlCss: false,
   },
+
   {
-    name: "Clipboard ",
+    name: "GuardianTrack",
     description:
-      "A history of everything you copy Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.",
-    image: bookmarkImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
-    isTopProject: false,
+      "Built GuardianTrack, a mobile safety and emergency alert app developed with React Native. Enables users to quickly share their live location and SOS messages with saved contacts during emergencies. Integrated GPS tracking, local data storage with AsyncStorage, and responsive UI for reliability and ease of use in critical moments.",
+    image: guard,
+    link: "",
+    repo: "https://github.com/Adii1106/MAD_Project",
+    tech: ["React Native", "Expo", "JavaScript", "AsyncStorage", "Location API"],
+    isTopProject: true,
     isNextjs: false,
-    isMern: false,
-    isHtmlCss: true,
-  },
-  {
-    name: "Rock Paper Scissors Game",
-    description: "A Rock Paper Scissors Game",
-    image: rockImage,
-    link: "https://frontend-mentor-rock-paper-scissors-challenge.netlify.app",
-    repo: "https://github.com/itsyaba/Rock--Paper-scissors",
-    tech: ["JavaScript ", "HTML", "CSS"],
-    isTopProject: false,
-    isNextjs: false,
-    isMern: false,
-    isHtmlCss: true,
-  },
-  {
-    name: "Threads Clone",
-    description: "Threads Clone",
-    image: threadsImage,
-    link: "https://threads-clone-nextjs-project.vercel.app/",
-    repo: "https://github.com/itsyaba/Threads-Clone",
-    tech: ["Next.js ", "Tailwind", "MongoDB"],
-    isTopProject: false,
-    isNextjs: true,
     isMern: false,
     isHtmlCss: false,
   },
+  {
+    name: "Walmart Sales Data Analysis",
+    description:
+      "Constructed a complete data analysis pipeline to derive actionable business insights from large-scale Walmart sales datasets. Processed and transformed raw data using Python and Pandas for high-quality feature engineering, and performed SQL-based analytics using MySQL to answer domain-specific business queries. Automated workflows through Kaggle API and SQLAlchemy integration for reproducibility and efficiency.",
+    image: walmart,
+    link: "https://github.com/Adii1106/Walmart_SQL_Python",
+    repo: "https://github.com/Adii1106/Walmart_SQL_Python",
+    tech: ["Python", "Pandas", "MySQL", "SQLAlchemy", "Jupyter Notebook"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
+  },
+  {
+    name: "Web-to-Sheet Logger",
+    description:
+      "Developed a Chrome extension that automates data logging from websites directly into Google Sheets. Designed to streamline repetitive workflows by capturing structured data from web pages and syncing it to Sheets in real time. Focused on improving productivity, automation, and understanding of browser extension architecture.",
+    image: web,
+    link: "",
+    repo: "https://github.com/Adii1106/web-to-sheet-logger",
+    tech: ["JavaScript", "Chrome Extensions", "Manifest V3", "HTML5", "CSS3"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
+  },
+  {
+    name: "WhatsBlitz",
+    description:
+      "Created WhatsBlitz, a Chrome extension that enhances WhatsApp Web by introducing quick-access automation features. Implemented efficient DOM manipulation and event handling to deliver a smooth, responsive experience. Focused on UI minimalism, performance optimization, and learning browser APIs for extension development.",
+    image: what,
+    link: "",
+    repo: "https://github.com/Adii1106/WhatsBlitz",
+    tech: ["JavaScript", "Chrome Extensions", "HTML5", "CSS3"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
+  },
+
+  {
+    name: "Tic Tac Toe",
+    description:
+      "Built a responsive and interactive Tic Tac Toe game using React and JavaScript. Implemented real-time game logic, win detection, and player turns for a smooth gameplay experience. Designed a clean, minimal interface and optimized component re-rendering for better performance.",
+    image: tictactoe,
+    link: "https://tic-tac-toe-bay-seven.vercel.app/",
+    repo: "https://github.com/Adii1106/TIC_TAC_TOE",
+    tech: ["React", "JavaScript", "HTML5", "CSS3"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
+  },
+  
 ];
 
 const projects = [
   {
-    name: "Tigat.net",
-    description: "Tigat.net is a platform for learning and teaching.",
-    image: tigatImage,
-    link: "https://tigat.net",
-    location: "Ethiopia",
+    name: "Hand Gesture Rock-Paper-Scissors",
+    description:
+      "Engineered a real-time Rock-Paper-Scissors game using webcam-based hand gesture recognition for an immersive and interactive experience. Integrated TensorFlow.js Hand Pose Detection (MediaPipe Hands backend) with react-webcam for accurate, real-time gesture tracking. Designed gameplay logic for gesture aggregation, countdowns, and scoring, enhancing user engagement and responsiveness.",
+    image: RPS,
+    link: "https://gesture-rps-jyuy.vercel.app/",
+    repo: "https://github.com/Adii1106/Gesture-RPS-",
+    tech: ["React", "TensorFlow.js", "MediaPipe Hands", "JavaScript", "Vite"],
+    isTopProject: true,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
   },
   {
-    name: "Servicenow",
-    description: "Servicenow is a platform for learning and teaching.",
-    image: servicenowImage,
-    link: "https://servicenow.com",
-    location: "Canada",
+    name: "WhatsCookin – Recipe Remix Web App",
+    description:
+      "Developed an interactive recipe platform that enables users to remix and personalize recipes through live ingredient modifications and preview updates. Built modular React components with a responsive, mobile-optimized UI for a seamless cooking experience across devices. Leveraged Vite for fast rendering and real-time state management for an engaging and intuitive user experience.",
+    image: whatscookin,
+    link: "https://whats-cookin-lac.vercel.app/",
+    repo: "https://github.com/Adii1106/Whats-Cookin",
+    tech: ["React", "Vite", "JavaScript", "HTML5", "CSS3"],
+    isTopProject: true,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
   },
   {
-    name: "Whalers",
-    description: "Whalers is a platform for learning and teaching.",
-    image: whalersImage,
-    link: "https://whalerapp.com",
-    location: "USA",
-  },
-  {
-    name: "Nileode Technologies",
-    description: "Nileode Technologies is a platform for learning and teaching.",
-    image: nileodeImage,
-    link: "https://nileode.com",
-    location: "Ethiopia",
-  },
-  {
-    name: "Lalibela",
-    description: "Lalibela is a platform for learning and teaching.",
-    image: LalibelaImage,
-    link: "https://lalibelahoney.com",
-    location: "Ethiopia",
+    name: "Krekens",
+    description:
+      "Developed Krekens, a modern and visually engaging website built using React and Tailwind CSS. Designed to showcase the team’s projects, achievements, and collaborative spirit with smooth animations and responsive layouts. Focused on building a clean, scalable frontend architecture and delivering a dynamic user experience.",
+    image: krakens,
+    link: "https://the-krekens.vercel.app/",
+    repo: "https://github.com/Harshit-jain-57/The-Kreken-Kins",
+    tech: ["React", "TailwindCSS", "JavaScript", "Vite"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
   },
 
   {
-    name: "The Mojo Effect",
-    description: "Mojo is a platform for learning and teaching.",
-    image: MojoImage,
-    link: "https://themojoeffect.com/",
-    location: "USA",
+    name: "GuardianTrack",
+    description:
+      "Built GuardianTrack, a mobile safety and emergency alert app developed with React Native. Enables users to quickly share their live location and SOS messages with saved contacts during emergencies. Integrated GPS tracking, local data storage with AsyncStorage, and responsive UI for reliability and ease of use in critical moments.",
+    image: guard,
+    link: "",
+    repo: "https://github.com/Adii1106/MAD_Project",
+    tech: ["React Native", "Expo", "JavaScript", "AsyncStorage", "Location API"],
+    isTopProject: true,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
   },
   {
-    name: "HUHT Orphanage",
-    description: "HUHT Orphanage is a platform for learning and teaching.",
-    image: HUHTImage,
-    link: "https://huhtorphanage.com",
-    location: "Canada",
-  },
-  {
-    name: "Dideco North America",
-    description: "Dideco North America is a platform for learning and teaching.",
-    image: DidecoImage,
-    link: "https://dideco.com",
-    location: "North America",
-  },
-  {
-    name: "Calmify",
-    description: "Calmify is a platform for learning and teaching.",
-    image: calmifyImage,
-    link: "https://calmify.com",
-    location: "Ethiopia",
-  },
+    name: "Walmart Sales Data Analysis",
+    description:
+      "Constructed a complete data analysis pipeline to derive actionable business insights from large-scale Walmart sales datasets. Processed and transformed raw data using Python and Pandas for high-quality feature engineering, and performed SQL-based analytics using MySQL to answer domain-specific business queries. Automated workflows through Kaggle API and SQLAlchemy integration for reproducibility and efficiency.",
+    image: walmart,
+    link: "https://github.com/Adii1106/Walmart_SQL_Python",
+    repo: "https://github.com/Adii1106/Walmart_SQL_Python",
+    tech: ["Python", "Pandas", "MySQL", "SQLAlchemy", "Jupyter Notebook"],
+    isTopProject: false,
+    isNextjs: false,
+    isMern: false,
+    isHtmlCss: false,
+  }
+  
+  
 ];
 
 export function ProjectsSection() {

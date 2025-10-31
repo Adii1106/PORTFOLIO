@@ -4,27 +4,19 @@ import ArrowUpRightIcon from "../../public/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Github",
-    href: "https://github.com/itsyaba",
-  },
-  {
-    title: "Telegram",
-    href: "https://t.me/itsyaba",
+    href: "https://github.com/Adii1106",
   },
   {
     title: "Phone",
-    href: "tel:+251900305289",
+    href: "+919063566724",
   },
   {
     title: "Email",
-    href: "mailto:yabahane@gmail.com",
+    href: "aditya.1165.mishra@gmail.com",
   },
   {
     title: "Linkedin",
-    href: "https://www.linkedin.com/in/itsyaba/",
-  },
-  {
-    title: "Twitter",
-    href: "https://x.com/itsyaba",
+    href: "https://www.linkedin.com/in/adityamishra11/",
   },
 ];
 
@@ -35,7 +27,7 @@ export const Footer = () => {
       <div className="container">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
           <div className="text-white/40">
-            &copy; {new Date().getFullYear()} Yeabsira Tarekegn. All rights
+            &copy; {new Date().getFullYear()} Aditya Mishra. All rights
             reserved.
           </div>
           <nav className="grid grid-cols-3 md:grid-cols-6 gap-4">

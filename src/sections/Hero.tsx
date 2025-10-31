@@ -72,12 +72,12 @@ export const HeroSection = () => {
         </div>
         <div className=" mx-auto">
           <h1 className="font-cursive md:text-8xl text-5xl text-center mt-8 tracking-wide">
-            Hi. I&apos;m Yeabsira.
+            Hi. I&apos;m Aditya Mishra.
           </h1>
           {/* <h1 className="font-serif text-xl text-center">A Developer.</h1> */}
           <p className="text-center mt-4 text-white/60 md:text-lg">
-            I specialize in transforming designs into functional, high-performance , scalable
-            websites and web applications.
+          I’m a student developer passionate about turning ideas into responsive and user-friendly web applications 
+          while continuously learning and improving my craft.
           </p>
         </div>
 

@@ -96,16 +96,13 @@ export const Experience = () => {
 
   const data = [
     {
-      title: "2025",
+      title: "Late 2024",
       content: (
         <div>
-          <h1 className="text-3xl md:text-5xl mb-6  font-serif">Nileode Technologies</h1>
+          <h1 className="text-3xl md:text-5xl mb-6  font-serif">Tekron-Tech Fest</h1>
           <p className=" text-xs md:text-[14px] font-normal mb-8 font-poppins leading-relaxed">
-            At Nileode Technologies, I played a key role as a fullstack developer in the development
-            of Tigat.net, an LMS platform, ensuring a seamless and interactive learning experience.
-            Additionally, I designed and built websites for Nileode, Dideco North America, HUHT
-            Orphanage, and The Mojo Effect, implementing Framer Motion and GSAP to enhance visual
-            storytelling and engagement.
+          Volunteered at a college-level Tech Fest, assisting the organizing team with event logistics, coordination, and participant management. 
+          Developed strong teamwork and communication skills while ensuring smooth execution of various technical sessions and competitions.
           </p>
           {/* <div className="grid grid-cols-2 gap-4">
             <Image
@@ -141,15 +138,14 @@ export const Experience = () => {
       ),
     },
     {
-      title: "Early 2025",
+      title: "Mid 2024",
       content: (
         <div>
-          <h1 className="text-3xl md:text-5xl mb-6 font-serif">Go2Cod</h1>
+          <h1 className="text-3xl md:text-5xl mb-6 font-serif">SIH</h1>
           <p className=" text-xs md:text-sm font-normal mb-8">
-            As the Frontend Lead at Go2Cod, I was responsible for designing and developing Calmify,
-            an AI-powered therapy platform aimed at enhancing mental health support. The project won
-            first place in a competition spanning all of Africa, showcasing innovation in AI-driven
-            wellness solutions.
+          Selected twice at the college level for the Smart India Hackathon (SIH), 
+          where I collaborated with teammates to design innovative tech solutions. 
+          Though we couldnt progress beyond the next stage, the experience strengthened my teamwork, creativity, and problem-solving skills.
           </p>
           {/* <div className="grid grid-cols-2 gap-4">
             <Image
@@ -190,8 +186,7 @@ export const Experience = () => {
     <div className=" flex flex-col items-center justify-center  overflow-clip " id="experience">
       <h1 className="font-cursive text-3xl md:text-5xl text-center mt-6 ">My Experience </h1>
       <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-4 mb-8  max-w-2xl mx-auto">
-        Here are some of my professional projects, showcasing my skills in fullstack development,
-        UI/UX design.
+        Here are some of my professional projects, showcasing my skills in development, Data Analytics and much more...
       </p>
       {/* <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center mt-4 mb-8  max-w-md mx-auto">
         A small list of cool things I use to construct my projects.
