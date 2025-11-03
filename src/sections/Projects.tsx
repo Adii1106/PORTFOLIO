@@ -1,15 +1,5 @@
 "use client";
 
-import cypressImage from "../../public/images/projects/cypresss.png";
-import breaditImage from "../../public/images/projects/breadit.png";
-import bookmarkImage from "../../public/images/projects/bookmark.jpg";
-import ecommerceImage from "../../public/images/projects/ecommerce.png";
-import galleryImage from "../../public/images/projects/gallery.png";
-import rockImage from "../../public/images/projects/rockpaperscissor.png";
-import spaceImage from "../../public/images/projects/space.jpg";
-import tmsImage from "../../public/images/projects/tms.png";
-import threadsImage from "../../public/images/projects/threads.png";
-import ratemyuniImage from "../../public/images/projects/ratemyuni.jpg";
 import RPS from "../../public/images/RPS.png";
 import krakens from "../../public/images/krakens.png";
 import tictactoe from "../../public/images/tictactoe.png";
