@@ -1,6 +1,4 @@
 import aiStartupLandingPage from "../../public/images/ai-startup-landing-page.png";
-import AboutImage from "../../public/images/aboutme.png";
-import AboutImageMobile from "../../public/images/aboutme (2).png";
 import Image from "next/image";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 
